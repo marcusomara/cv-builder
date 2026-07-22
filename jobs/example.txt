@@ -1,0 +1,7 @@
+Senior Software Engineer — Example Ltd
+
+We are looking for a senior software engineer to build reliable distributed systems. You will
+design Python services, operate Kafka workloads on Kubernetes, improve observability and mentor
+engineers. PostgreSQL and continuous delivery experience are required. Experience with AI quality
+evaluation is desirable.
+

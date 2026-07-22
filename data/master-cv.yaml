@@ -1,0 +1,71 @@
+personal:
+  name: Alex Morgan
+  email: alex.morgan@example.com
+  phone: "+44 7700 900000"
+  location: London, United Kingdom
+  links:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/alex-morgan
+    - label: GitHub
+      url: https://github.com/alexmorgan
+profile: >-
+  Senior software engineer who builds reliable distributed systems and developer platforms,
+  with a focus on pragmatic delivery, operational excellence and supportive technical leadership.
+experience:
+  - id: gresham
+    employer: Gresham Technologies
+    role: Senior Software Engineer
+    start_date: "2021-03"
+    end_date: Present
+    location: London
+    bullets:
+      - id: kafka-platform
+        text: Built and operated a production event-processing platform using Java, Kafka and Kubernetes.
+      - id: ai-quality
+        text: Built production AI quality pipelines with automated evaluation and release controls.
+      - id: reliability
+        text: Improved service reliability through observability, incident reviews and automated testing.
+      - id: mentoring
+        text: Mentored engineers and led design reviews across several delivery teams.
+      - id: delivery
+        text: Worked with product managers to deliver complex customer features incrementally.
+  - id: northstar
+    employer: Northstar Systems
+    role: Software Engineer
+    start_date: "2017-06"
+    end_date: "2021-02"
+    location: Bristol
+    bullets:
+      - id: python-services
+        text: Developed Python services and REST APIs for high-volume financial workflows.
+      - id: postgres
+        text: Designed PostgreSQL data models and performance improvements for reporting workloads.
+      - id: cicd
+        text: Introduced continuous integration and automated deployment practices.
+projects:
+  - id: release-insights
+    name: Release Insights
+    description: Open-source Python CLI for analysing deployment frequency and change failure rate.
+    bullets:
+      - id: release-cli
+        text: Designed a typed command-line interface and export pipeline with comprehensive tests.
+education:
+  - institution: University of Bristol
+    qualification: BSc Computer Science
+    start_date: "2014"
+    end_date: "2017"
+skills:
+  - Python
+  - Java
+  - Kafka
+  - Kubernetes
+  - PostgreSQL
+  - REST APIs
+  - Distributed systems
+  - CI/CD
+  - Observability
+  - Technical leadership
+achievements:
+  - id: availability-award
+    text: Received an engineering award for improving platform availability.
+

@@ -1,0 +1,14 @@
+maximum_pages: 2
+maximum_bullets_per_experience: 5
+maximum_bullet_length: 180
+preserve_dates: true
+preserve_employers: true
+allow_reordering: true
+allow_rewriting: true
+forbidden_buzzwords:
+  - guru
+  - ninja
+  - rockstar
+  - world-class
+  - best-in-class
+
