@@ -1,71 +1,247 @@
 personal:
-  name: Alex Morgan
-  email: alex.morgan@example.com
-  phone: "+44 7700 900000"
-  location: London, United Kingdom
+  name: Marcus O'Mara
+  email: marcusomara@live.co.uk
+  phone: "+44 7907 911204"
+  location: Brighton, UK
   links:
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/alex-morgan
-    - label: GitHub
-      url: https://github.com/alexmorgan
+    - label: Wiktok
+      url: https://wiktok.io
 profile: >-
-  Senior software engineer who builds reliable distributed systems and developer platforms,
-  with a focus on pragmatic delivery, operational excellence and supportive technical leadership.
+  Senior Software Engineer with 5+ years' experience designing and delivering distributed
+  cloud-native systems across fintech, data engineering and edtech. Experienced across backend
+  development, DevSecOps, cloud infrastructure and platform engineering using Clojure,
+  Kubernetes, Kafka and AWS/GCP. Strong track record of improving engineering productivity
+  through automation, reducing build times by orders of magnitude, improving deployment
+  reliability, eliminating security vulnerabilities and simplifying complex systems. PhD in
+  Experimental Physics with a proven ability to rapidly master unfamiliar domains and solve
+  technically challenging problems. Passionate about building maintainable software, improving
+  developer experience and helping engineering teams move faster through thoughtful architecture,
+  documentation and automation.
 experience:
-  - id: gresham
-    employer: Gresham Technologies
-    role: Senior Software Engineer
-    start_date: "2021-03"
+  - id: wiktok-founder
+    employer: wiktok.io
+    role: Founder
+    start_date: "2026-03"
     end_date: Present
-    location: London
+    location: Brighton
     bullets:
-      - id: kafka-platform
-        text: Built and operated a production event-processing platform using Java, Kafka and Kubernetes.
-      - id: ai-quality
-        text: Built production AI quality pipelines with automated evaluation and release controls.
-      - id: reliability
-        text: Improved service reliability through observability, incident reviews and automated testing.
-      - id: mentoring
-        text: Mentored engineers and led design reviews across several delivery teams.
-      - id: delivery
-        text: Worked with product managers to deliver complex customer features incrementally.
-  - id: northstar
-    employer: Northstar Systems
+      - id: wiktok-founded-platform
+        text: Founded and built an AI-powered educational discovery platform transforming Wikipedia into a personalised, swipeable learning experience.
+      - id: wiktok-cloud-native-platform
+        text: Designed and implemented a cloud-native Clojure/PostgreSQL platform supporting recommendations, AI summaries, analytics, reading lists and user management.
+      - id: wiktok-ingestion-pipelines
+        text: Built large-scale Wikipedia ingestion and recommendation pipelines processing millions of articles with taxonomy, ranking and freshness analysis.
+      - id: wiktok-ai-workflows
+        text: Integrated Gemini and Imagen workflows with automated AI quality validation for generated summaries, artwork and voice experiences.
+      - id: wiktok-production-infrastructure
+        text: Implemented production observability, Cloudflare edge infrastructure, intelligent SSR caching and comprehensive automated testing.
+      - id: wiktok-production-delivery
+        text: Designed and delivered the platform as a scalable production system from concept through deployment.
+  - id: obrizum
+    employer: Obrizum
     role: Software Engineer
-    start_date: "2017-06"
-    end_date: "2021-02"
+    start_date: "2025-06"
+    end_date: "2026-03"
+    location: Cambridge
+    bullets:
+      - id: obrizum-platform-ownership
+        text: Following an engineering reduction in force, inherited a platform spanning 100+ repositories with limited documentation, unclear ownership and substantial technical debt.
+      - id: obrizum-platform-improvements
+        text: Documented architectural issues and drove engineering improvements across testing, CI/CD, infrastructure and operational processes.
+      - id: obrizum-test-execution
+        text: Reduced end-to-end test execution from approximately 24 hours to under 30 minutes by redesigning the integration test harness to reuse existing PostgreSQL migrations.
+      - id: obrizum-cdk-feedback
+        text: Reduced AWS CDK infrastructure feedback cycles from approximately one hour to under three minutes through effective build caching.
+      - id: obrizum-trivy
+        text: Introduced automated Trivy security scanning into CI, identifying and surfacing 100+ high and 10+ critical dependency vulnerabilities.
+      - id: obrizum-knowledge-space-wizard
+        text: Led engineering contributions for the Knowledge Space Wizard, one of two flagship strategic initiatives.
+      - id: obrizum-enterprise-customer
+        text: Took technical ownership for the largest enterprise customer (>50,000 users), delivering test environments, enhanced monitoring and alerting, and customer support.
+      - id: obrizum-registration-defects
+        text: Diagnosed and fixed critical defects in the user registration flow affecting customer logins.
+      - id: obrizum-production-triage
+        text: Proposed and introduced structured production triage processes to reduce context switching and improve incident response across the engineering team.
+      - id: obrizum-architecture-roadmap
+        text: Produced extensive architectural documentation and technical recommendations, providing leadership with a clear prioritised roadmap for reducing technical debt.
+  - id: gresham-technologies
+    employer: Gresham Technologies
+    role: Software Engineer
+    start_date: "2022-11"
+    end_date: "2025-05"
     location: Bristol
     bullets:
-      - id: python-services
-        text: Developed Python services and REST APIs for high-volume financial workflows.
-      - id: postgres
-        text: Designed PostgreSQL data models and performance improvements for reporting workloads.
-      - id: cicd
-        text: Introduced continuous integration and automated deployment practices.
-projects:
-  - id: release-insights
-    name: Release Insights
-    description: Open-source Python CLI for analysing deployment frequency and change failure rate.
+      - id: gresham-virtual-banking
+        text: Developed a cloud-native virtual banking platform for a global fintech organisation as a full-stack engineer.
+      - id: gresham-technical-ownership
+        text: Became technical owner for application security, developer tooling and operational improvements alongside product development.
+      - id: gresham-deployment-time
+        text: Reduced deployment time by 50% by identifying thread-safety issues and parallelising integration test execution.
+      - id: gresham-ci-stability
+        text: Improved CI stability by approximately 20% through distributed tracing and optimisation of database queries.
+      - id: gresham-container-vulnerabilities
+        text: Eliminated all Critical and High container vulnerabilities across production deployments.
+      - id: gresham-kafka-visualisation
+        text: Designed and built internal tooling to visualise complex Kafka Streams topologies, dramatically improving developer onboarding.
+      - id: gresham-incident-investigations
+        text: Standardised production incident investigations through improved documentation and knowledge sharing.
+      - id: gresham-operational-tooling
+        text: Developed monitoring, automation tooling and operational dashboards to improve supportability and developer productivity.
+  - id: hyde-group
+    employer: The Hyde Group
+    role: Data Engineer
+    start_date: "2021-09"
+    end_date: "2022-11"
+    location: London Bridge
     bullets:
-      - id: release-cli
-        text: Designed a typed command-line interface and export pipeline with comprehensive tests.
+      - id: hyde-document-intelligence
+        text: Designed and delivered an AWS cloud-native document intelligence platform processing approximately one million physical documents.
+      - id: hyde-ocr-nlp
+        text: Architected an automated OCR and NLP pipeline using AWS Textract, Comprehend and SageMaker.
+      - id: hyde-business-data
+        text: Enabled extraction of previously inaccessible business data to improve reporting and operational efficiency.
+      - id: hyde-event-integrations
+        text: Delivered event-driven integrations between Salesforce, Workday and internal systems using Kafka and AWS.
+      - id: hyde-cloud-migration
+        text: Contributed to the organisation's migration from legacy platforms towards cloud-native microservices.
+  - id: allstreet
+    employer: Allstreet
+    role: Software Engineer
+    start_date: "2020-11"
+    end_date: "2021-09"
+    location: Brighton
+    bullets:
+      - id: allstreet-fintech-platform
+        text: Developed features for a VC-backed fintech platform specialising in financial sentiment analysis and market intelligence.
+      - id: allstreet-full-stack
+        text: Built frontend and backend functionality using Clojure and ClojureScript.
+      - id: allstreet-scrapers
+        text: Developed high-volume web scrapers covering major stock exchanges and the SEC EDGAR database.
+      - id: allstreet-rest-apis
+        text: Extended REST APIs supporting interactive financial visualisations.
+      - id: allstreet-test-coverage
+        text: Increased automated test coverage through extensive integration and UI testing.
+      - id: allstreet-mentoring
+        text: Reduced technical debt and mentored junior developers.
+  - id: sussex-phd
+    employer: University of Sussex
+    role: Doctor of Philosophy
+    start_date: "2017-09"
+    end_date: "2021-06"
+    location: Brighton
+    bullets:
+      - id: sussex-phd-topic
+        text: Completed a PhD in Experimental Nanotechnology with the thesis “Functional Composites from Graphene Stabilised Silicone Emulsions”.
+      - id: sussex-advanced-materials
+        text: Designed, engineered, tested and modelled advanced materials for healthcare, soft robotics and sensing applications.
+      - id: sussex-nasa-technology
+        text: Developed patent-pending technology that redefined the state of the art and received additional funding to provide parachute deployment telemetry in partnership with NASA.
+  - id: sussex-associate-tutor
+    employer: University of Sussex
+    role: Associate Tutor
+    start_date: "2018-09"
+    end_date: "2020-06"
+    location: Brighton
+    bullets:
+      - id: sussex-tutor-periods
+        text: Worked as an Associate Tutor from September to December 2018 and from January to June 2020.
+      - id: sussex-workshops
+        text: Led undergraduate workshops for the Introduction to Nanomaterials and Characterisation and Foundation Mathematics modules.
+      - id: sussex-tutor-competencies
+        text: Applied problem solving, active listening, clear communication and leadership.
+  - id: advanced-materials-development
+    employer: Advanced Materials Development
+    role: Research Support Technician
+    start_date: "2019-02"
+    end_date: "2019-12"
+    location: Brighton
+    bullets:
+      - id: amd-nanomaterial-processes
+        text: Designed and implemented processes for the production of high-quality nanomaterial dispersions.
+      - id: amd-process-optimisation
+        text: Solved production bottlenecks through process optimisation, assessed product quality using advanced analytical techniques and performed associated cost-benefit analysis.
+  - id: freelance-web-designer
+    employer: Freelance
+    role: Web Designer
+    start_date: "2018"
+    end_date: "2022"
+    bullets:
+      - id: freelance-websites
+        text: Created websites for small companies in the south east.
+      - id: freelance-business-generation
+        text: Generated business through brand development and targeted advertising.
+projects: []
 education:
-  - institution: University of Bristol
-    qualification: BSc Computer Science
-    start_date: "2014"
-    end_date: "2017"
+  - institution: University of Sussex
+    qualification: PhD in Experimental Nanotechnology, Roger Blin-Stoyle Award for Outstanding Thesis
+    start_date: "2017-09"
+    end_date: "2021-06"
+  - institution: University of Sussex
+    qualification: MPhys Theoretical Physics, First Class Honours
+    start_date: "2013-09"
+    end_date: "2017-07"
+  - institution: Simon Langton Grammar School
+    qualification: 3 A-levels and 2 AS-levels — Maths, Physics, Economics, French and Further Maths
+    start_date: "2011-09"
+    end_date: "2013-07"
+  - institution: Simon Langton Grammar School
+    qualification: 10 GCSEs — 3 A*s, 6 As and 1 B
+    start_date: "2006-09"
+    end_date: "2011-07"
 skills:
-  - Python
-  - Java
-  - Kafka
-  - Kubernetes
-  - PostgreSQL
+  - Clojure
+  - ClojureScript
+  - Babashka
+  - GraphQL
   - REST APIs
+  - Kafka
+  - Kafka Streams
+  - PostgreSQL
+  - MongoDB
+  - Elasticsearch
+  - React
+  - Re-frame
+  - D3
+  - Material UI
+  - Docker
+  - Kubernetes
+  - Helm
+  - Kustomize
+  - Terraform
+  - AWS
+  - AWS CDK
+  - GCP
+  - Cloudflare
+  - CircleCI
+  - Grafana
+  - Prometheus
+  - Keycloak
+  - Trivy
+  - Salesforce
+  - Workday
+  - Gemini
+  - Imagen
+  - C++
+  - MATLAB
+  - DevSecOps
+  - Platform engineering
   - Distributed systems
-  - CI/CD
+  - Cloud-native systems
+  - Machine learning
+  - Data engineering
   - Observability
-  - Technical leadership
 achievements:
-  - id: availability-award
-    text: Received an engineering award for improving platform availability.
-
+  - id: roger-blin-stoyle-award
+    text: Received the Roger Blin-Stoyle Award for Outstanding Thesis for a PhD in Experimental Nanotechnology.
+  - id: publication-strain-gauges
+    text: Co-authored “Ultra-sensitive strain gauges enabled by graphene-silicone emulsions”.
+  - id: publication-nanosheet-emulsions
+    text: Co-authored “Nanosheet-stabilised emulsions — ultra-low loading segregated networks and surface energy determination of pristine few-layer 2D materials”.
+  - id: publication-surfactant-exfoliation
+    text: Co-authored “Large-scale surfactant exfoliation of graphene and conductivity-optimised graphite enabling wireless connectivity”.
+  - id: publication-printable-conductors
+    text: Co-authored “Graphene-based printable conductors for cyclable strain sensors on elastomeric substrates”.
+  - id: publication-size-selection
+    text: Co-authored “Size selection of liquid-exfoliated 2D nanosheets”.
+  - id: sussex-undergraduate-research-award
+    text: Received a Sussex Undergraduate Research Award for research that led to a dissertation on loss and phase estimation using entangled and unentangled states.

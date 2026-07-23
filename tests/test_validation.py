@@ -14,15 +14,17 @@ def test_rejects_unsupported_claim(master, rules) -> None:  # type: ignore[no-un
     from cv_builder.job import analyse_job
 
     cv = tailor(master, analyse_job("Engineer — Acme\nBuild software."), rules)
+    source_id = cv.experience[0].bullets[0].source_id
     cv.experience[0].bullets[0] = TailoredBullet(
-        text="Built RAG systems.", source_id="kafka-platform"
+        text="Built unsupported systems.", source_id=source_id
     )
-    assert "Unsupported wording for kafka-platform" in validate_claims(master, cv, rules)
+    assert f"Unsupported wording for {source_id}" in validate_claims(master, cv, rules)
 
 
 def test_rejects_changed_employer(master, rules) -> None:  # type: ignore[no-untyped-def]
     from cv_builder.job import analyse_job
 
     cv = tailor(master, analyse_job("Engineer — Acme\nBuild software."), rules)
+    experience_id = cv.experience[0].id
     cv.experience[0].employer = "Different Ltd"
-    assert "Employer changed for gresham" in validate_claims(master, cv, rules)
+    assert f"Employer changed for {experience_id}" in validate_claims(master, cv, rules)
